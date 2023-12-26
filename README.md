@@ -13,6 +13,8 @@ Nesse desafio, desenvolvi uma aplicação de controle de tarefas no estilo **to-
 - Remover uma tarefa da listagem
 - Mostrar o progresso de conclusão das tarefas
 
+URL: https://matheusgcm.github.io/ignite-challenge-reactjs-todo/
+
 <br/>
 
 ## 🛠 Tecnologias/Ferramentas utilizadas
@@ -40,6 +42,9 @@ $ yarn ou npm i
 # Execute o app
 $ yarn dev ou npm run dev
 ```
+
+<img alt="web" src="/src/assets/version-web.png" />
+<img alt="mobile" src="/src/assets/version-mobile.png" />
 
 [typescript]: https://www.typescriptlang.org/
 [yarn]: https://yarnpkg.com/
