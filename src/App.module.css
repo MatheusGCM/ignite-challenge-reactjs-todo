@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 46rem;
+  margin-top: -1.875rem;
+}
+
+.formContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  display: flex;
+  flex: 1;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  border: 1px solid var(--grey-700);
+  background-color: var(--grey-500);
+  color: var(--grey-100);
+}
+
+.input::placeholder{
+  color: var(--grey-300);
+}
+
+.input:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 1px var(--purple-dark);
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.225rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  gap: 0.5rem;
+
+  color: var(--grey-100);
+  background-color: var(--blue-dark);
+  
+  cursor: pointer;
+  outline: none;
+  transition: 200ms;
+}
+
+.btn:hover{
+  background-color: var(--blue);
+}
+
+.tagsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+ 
+}
+
+.emptyContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 1rem;
+  line-height: 1.4rem;
+  padding: 4rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  border-top: 1px solid var(--grey-400);
+
+  color: var(--grey-300);
+}
+
+.tasksContainer{
+  margin-top: 1.5rem;
+}
+
+.emptyText {
+  font-weight: 700; 
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  html{
+    font-size: 87.5%;
+  }
+  .content {
+    width: 23rem;
+  }
+}
